@@ -23,7 +23,6 @@ app.post("/send_email", function(req, response) {
         auth: {
             user: process.env.EMAIL_USER,
             pass: process.env.EMAIL_PASS
-            // 'fvwk dzwt znck doyw'
         }
     });
 
